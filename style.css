@@ -17,6 +17,7 @@ header {background-image: url(./img/pattern.png);
 /* Title and main pics*/
 h1 { margin-bottom: 0;
     font-size: 30px;
+    
 }
 
 #author { margin-bottom: 20px;
@@ -34,6 +35,9 @@ h1 { margin-bottom: 0;
 
 
 /* Table*/
+
+table {height: 0px;
+}
 .text_column { width: 50%;
 }
 
@@ -46,5 +50,35 @@ th { background-color: #20A9E5;
 
 
 /* Highlighted Text*/
-span { background-color: yellow;}
+span { background-color: yellow;
+}
 
+
+
+/*  Curiosity*/ 
+#Curiosity {height: 500px;
+            color: white;
+            font-weight: 700;
+}
+
+h3 {color: #808080;
+}
+
+p {padding:10px;
+}
+
+
+#article_one {background-image: url(./img/monitor.jpg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              height: 150px;
+              width: 100%;  
+              margin-bottom: 5px;     
+}  
+
+#article_two {background-image: url(./img/graph.jpg);
+             background-size: contain;
+             background-repeat: no-repeat;
+             height: 150px;
+             width: 100%;         
+}  

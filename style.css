@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box
+    margin: 0;
+}
+
+/* Logo Header*/
 header {background-image: url(./img/pattern.png);
         background-color: #4EA0FF;
         height: 100px;
@@ -9,3 +15,22 @@ header {background-image: url(./img/pattern.png);
         padding: 30px;
         padding-left: 10px;
     }
+/* Logo Header*/ 
+
+
+/* Title and main pics*/
+h1 { margin-bottom: 0;
+}
+
+#author { margin-bottom: 20px;
+          color: #808080;
+}
+
+#link_page {color: #20A9E5;
+            text-decoration: none;
+}
+
+#description_pics {
+    font-size: 10px;
+}
+/* Title and main pics*/

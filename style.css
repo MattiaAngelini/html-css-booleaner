@@ -1,42 +1,55 @@
 
-/* Logo Header*/
+/* -------------Logo Header-------------------------*/
 header {background-image: url(./img/pattern.png);
         background-color: #4EA0FF;
-        height: 100px;
-        background-size: contain;
+        height: 100px; 
+        background-size: 25%;
 }
 
-#logo { width: 200px;
+.logo { width: 200px;
         height: 200px;
         padding: 30px;
         padding-left: 10px;
-    }
+}
+/* ----------------Logo Header-----------------------*/
  
-
-
-/* Title and main pics*/
+                    
+/* --------------Title and main pics-----------------*/
 h1 { margin-bottom: 0;
     font-size: 30px;
+    font-weight: 900;
     
 }
 
-#author { margin-bottom: 20px;
+.author { margin-bottom: 20px;
           color: #808080;
 }
 
-#link_page {color: #20A9E5;
+.link_page {color: #20A9E5;
             text-decoration: none;
 }
 
-#description_pics {
+.description_pics {
     font-size: 10px;
 }
+/* ---------------Title and main pics-----------------*/
 
 
 
-/* Table*/
-table {height: 0px;
+/*----regolazioni figure trovate nell'ispector -------*/
+figure  {margin-block-start: 0;
+         margin-block-end: 0;
+         margin-inline-start: 0;
+         margin-inline-end: 0;}
+/*----regolazioni figure trovate nell'ispector ------*/
+
+
+
+/*-----------------------Table-----------------------*/
+
+table {border-collapse: collapse;
 }
+
 .text_column { width: 50%;
 }
 
@@ -45,17 +58,13 @@ th { background-color: #20A9E5;
 
 .color_raw { background-color: #B1E5F2;
 }
+/*-----------------------Table*----------------------*/
 
 
 
-/* Highlighted Text*/
-span { background-color: yellow;
-}
 
-
-
-/*  Curiosity*/ 
-#Curiosity {height: 500px;
+/* --------------Curiosity----------------------------*/ 
+.Curiosity {height: 500px;
             color: white;
             font-weight: 700;
 }
@@ -63,20 +72,21 @@ span { background-color: yellow;
 h3 {color: #808080;
 }
 
-p {padding:10px;
+ {padding:10px;
 }
 
-#article_one {background-image: url(./img/monitor.jpg);
-              background-size: contain;
-              background-repeat: no-repeat;
-              height: 150px;
-              width: 100%;  
-              margin-bottom: 5px;     
+
+.article { background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;    
+    margin-bottom: 5px;     
+}
+
+.article_one {background-image: url(./img/monitor.jpg);     
 }  
 
-#article_two {background-image: url(./img/graph.jpg);
-             background-size: contain;
-             background-repeat: no-repeat;
-             height: 150px;
-             width: 100%;         
+.article_two {background-image: url(./img/graph.jpg);     
 }  
+
+/*-----------------------Curiosity --------------------*/ 

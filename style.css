@@ -16,8 +16,8 @@ header {background-image: url(./img/pattern.png);
                     
 /* --------------Title and main pics-----------------*/
 h1 { margin-bottom: 0;
-    font-size: 30px;
-    font-weight: 900;
+     font-size: 30px;
+     font-weight: 900;
     
 }
 
@@ -29,8 +29,7 @@ h1 { margin-bottom: 0;
             text-decoration: none;
 }
 
-.description_pics {
-    font-size: 10px;
+.description_pics {font-size: 10px;
 }
 /* ---------------Title and main pics-----------------*/
 
@@ -50,13 +49,13 @@ figure  {margin-block-start: 0;
 table {border-collapse: collapse;
 }
 
-.text_column { width: 50%;
+.text_column {width: 50%;
 }
 
-th { background-color: #20A9E5;
+th {background-color: #20A9E5;
 }
 
-.color_raw { background-color: #B1E5F2;
+.color_raw {background-color: #B1E5F2;
 }
 /*-----------------------Table*----------------------*/
 
@@ -72,15 +71,12 @@ th { background-color: #20A9E5;
 h3 {color: #808080;
 }
 
- {padding:10px;
-}
-
 
 .article { background-size: contain;
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 100%;    
-    margin-bottom: 5px;     
+           background-repeat: no-repeat;
+           height: 150px;
+           width: 100%;    
+           margin-bottom: 5px;     
 }
 
 .article_one {background-image: url(./img/monitor.jpg);     

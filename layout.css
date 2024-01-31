@@ -1,14 +1,14 @@
 /* -------------Logo Header-------------------------*/
 header {background-image: url(./img/pattern.png);
-    background-color: #4EA0FF;
-    height: 100px; 
-    background-size: 25%;
+        background-color: #4EA0FF;
+        height: 100px; 
+        background-size: 25%;
 }
 
 .logo { width: 200px;
-    height: 200px;
-    padding: 30px;
-    padding-left: 10px;
+        height: 200px;
+        padding: 30px;
+        padding-left: 10px;
 }
 /* ----------------Logo Header-----------------------*/
 
@@ -26,21 +26,20 @@ main {max-width: 1000px;
                 
 /* --------------Title and main pics-----------------*/
 h1 { margin-bottom: 0;
-font-size: 30px;
-font-weight: 900;
+     font-size: 30px;
+     font-weight: 900;
 
 }
 
 .author { margin-bottom: 20px;
-      color: #808080;
+          color: #808080;
 }
 
 .link_page {color: #20A9E5;
-        text-decoration: none;
+            text-decoration: none;
 }
 
-.description_pics {
-font-size: 10px;
+.description_pics {font-size: 10px;
 }
 /* ---------------Title and main pics-----------------*/
 
@@ -48,9 +47,9 @@ font-size: 10px;
 
 /*----regolazioni figure trovate nell'ispector -------*/
 figure  {margin-block-start: 0;
-     margin-block-end: 0;
-     margin-inline-start: 0;
-     margin-inline-end: 0;}
+         margin-block-end: 0;
+         margin-inline-start: 0;
+         margin-inline-end: 0;}
 /*----regolazioni figure trovate nell'ispector ------*/
 
 
@@ -60,13 +59,13 @@ figure  {margin-block-start: 0;
 table {border-collapse: collapse;
 }
 
-.text_column { width: 50%;
+.text_column {width: 50%;
 }
 
-th { background-color: #20A9E5;
+th {background-color: #20A9E5;
 }
 
-.color_raw { background-color: #B1E5F2;
+.color_raw {background-color: #B1E5F2;
 }
 /*-----------------------Table*----------------------*/
 
@@ -75,22 +74,19 @@ th { background-color: #20A9E5;
 
 /* --------------Curiosity----------------------------*/ 
 .Curiosity {height: 500px;
-        color: white;
-        font-weight: 700;
+            color: white;
+            font-weight: 700;
 }
 
 h3 {color: #808080;
 }
 
-{padding:10px;
-}
-
 
 .article { background-size: contain;
-background-repeat: no-repeat;
-height: 150px;
-width: 100%;    
-margin-bottom: 5px;     
+           background-repeat: no-repeat;
+           height: 150px;
+           width: 100%;    
+           margin-bottom: 5px;     
 }
 
 .article_one {background-image: url(./img/monitor.jpg);     
